@@ -1,1 +1,1 @@
-# apbd11-cwiczenia1
+# apbd11-lab1
