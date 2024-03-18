@@ -9,13 +9,13 @@ Console.WriteLine("Modufikacja 3");
 
 static double GetAverage(int[] numbers)
 {
-    double sum = 0;
+    double sumMain = 0;
     for (int i = 0; i < numbers.Length; i++)
     {
-        sum += numbers[i];
+        sumMain += numbers[i];
     }
 
-    return sum / numbers.Length;
+    return sumMain / numbers.Length;
 
 }
 
