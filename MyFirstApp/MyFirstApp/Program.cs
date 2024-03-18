@@ -43,6 +43,6 @@ static int GetMax(int[] tablicaWartosci)
 
     
     return max;
-
+    
 
 }
