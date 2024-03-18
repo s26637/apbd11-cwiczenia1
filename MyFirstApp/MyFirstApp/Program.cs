@@ -22,3 +22,27 @@ static double GetAverage(int[] numbers)
 int[] arr = {1,2,3,4,5};
 double average = GetAverage(arr);
 Console.WriteLine(average);
+Console.WriteLine(GetMax(arr));
+
+
+static int GetMax(int[] tablicaWartosci)
+{
+    int max = 0;
+    
+    if (tablicaWartosci.Length != 0)
+    {
+            max = tablicaWartosci[0];
+            for (int i = 0; i < tablicaWartosci.Length; i++)
+            {
+                if (max < tablicaWartosci[i])
+                {
+                    max = tablicaWartosci[i];
+                }
+            }   
+    }
+
+    
+    return max;
+
+
+}
